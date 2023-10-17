@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -7,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Galeria de Wallpapers</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
 </head>
 
 <body>
@@ -20,17 +20,16 @@
     <div class="gallery" id="gallery"></div>
     </div>
     <div class="input-container">
-        <label for="image-url">URL da Imagem:</label>
+        <label for="image-url">URL:</label>
         <input type="text" id="image-url">
-        <button onclick="addImageToGallery()">Adicionar à Galeria</button>
+        <button onclick="addImageToGallery()">enviar</button>
     </div>
-      <label for="file-input">Anexar Arquivo:</label>
+      <label for="file-input">Anexos:</label>
         <input type="file" id="file-input" accept="image/*">
-        <button onclick="updatePreviewByFile()">Atualizar Preview (Arquivo)</button>
+        <button onclick="updatePreviewByFile()">Refresh</button>
     </div>
 
     <script src="script.js"></script>
 </body>
 
 </html>
-
